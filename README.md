@@ -29,9 +29,14 @@ The strided convolution is used in each residual unit of encoder path to downsam
 
 ### Model Training ###
 
+Run the [training file](https://github.com/hafsa390/ODSI_Reconstruction/blob/main/train.py).
+
 The proposed network is trained using 64x64 overlapping patches having a stride 32. The batch size is 32. The Adam optimizer is used with beta1 = 0.9 and beta2 = 0.999$. The initial learning rate is 0.0001 with the polynomial function as the decay policy. The model is trained for 200 epochs. The average runtime of each epoch is 328.330872536s.
 
+
 ### Results ###
+
+Run the [test file](https://github.com/hafsa390/ODSI_Reconstruction/blob/main/evaluate_model.py).
 
 |Model          |MRAE                |PSNR               |
 |---------------|--------------------|-------------------|
