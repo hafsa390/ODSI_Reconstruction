@@ -22,9 +22,9 @@ from PIL import Image
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 # change the paths
-model_path = '10_layer_model_perceptual_loss_output_3_channel'
-train_h5_path = "D://PhD_Projects//HSI_Project//vein-visualization-master//oral_dental_reconstruction//train_t32bands5565f021_front_1.h5"
-valid_h5_path = "D://PhD_Projects//HSI_Project//vein-visualization-master//oral_dental_reconstruction//valid_t32bandsfe7b7582_face_2.h5"
+model_path = 'model_name'
+train_h5_path = "train_t32bands5565f021_front_1.h5"
+valid_h5_path = "valid_t32bandsfe7b7582_face_2.h5"
 usePretrain_model = False
 initial_learning_rate = 0.0001
 
