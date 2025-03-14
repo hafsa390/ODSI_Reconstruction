@@ -32,8 +32,6 @@ The strided convolution is used in each residual unit of encoder path to downsam
 The proposed network is trained using 64x64 overlapping patches having a stride 32. The batch size is 32. The Adam optimizer is used with beta1 = 0.9 and beta2 = 0.999$. The initial learning rate is 0.0001 with the polynomial function as the decay policy. The model is trained for 200 epochs. The average runtime of each epoch is 328.330872536s.
 
 ### Results ###
-Proposed Model & 2.717 $\pm$ 1.7750 & 8.684 $\pm$ 0.7709 \\ \hline 
-Vanilla U-Net & 3.095 $\pm$ 1.8792 & 8.094 $\pm$ 0.9352 \\ 
 
 |Model          |MRAE                |PSNR               |
 |---------------|--------------------|-------------------|
