@@ -6,3 +6,5 @@ Reliable visual discrimination of clinical tissue types is a challenging problem
 We utilize the publicly available Oral and Dental Spectral Imaging Database(ODSI-DB). The dataset can be downloaded form [here](https://cs.uef.fi/pub/color/spectra/ODSI-DB/). 
 
 A [preview tool](https://cs.uef.fi/pub/color/spectra/ODSI-DB/preview-tool-v2/) is provided by the dataset creators to visualize different tissue regions. 
+
+The ODSI dataset contains 316 oral and dental hyperspectral images. The Specim IQ line scan camera captured 171 images with 204 spectral channels in the 400 - 1000nm range with a spatial resolution of 512x512. The remainder of the images were taken with another camera in the 450 - 950nm range with 51 spectral channels and 1392x1040 spatial resolution. 
