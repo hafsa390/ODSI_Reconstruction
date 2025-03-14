@@ -12,3 +12,5 @@ The ODSI dataset contains 316 oral and dental hyperspectral images. The Specim I
 ### Data Pre-processing ###
 
 The ODSI images are first resized. Run the **data_preprocessing\Resize_ODSI_files.py** file. 
+
+![MNF generation figure](https://github.com/hafsa390/ODSI_Reconstruction/blob/main/images/mnf_figure_final.JPG)
