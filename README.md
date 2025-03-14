@@ -3,7 +3,7 @@
 Reliable visual discrimination of clinical tissue types is a challenging problem because traditional RGB imaging captures information restricted to the human eye's capabilities. Hyperspectral imaging(HSI) can capture abundant visual information using many narrow bands, facilitating tissue differentiation. Till now, hyperspectral imaging has been successful mainly in massive industrial applications due to the high cost of hyperspectral cameras. In this project, we propose a deep learning-based approach to reconstruct hyperspectral images from corresponding RGB images. We employ the Oral and Dental Spectral Image Database (ODSI-DB) to achieve this. The minimum noise fraction (MNF) dimensionality reduction approach is applied on the ODSI datacubes and the top three MNF-generated images are considered as ground truths. Instead of training the proposed deep learning model with all the spectral images, we utilize the MNF-generated images as groundtruth and reconstruct three images. Evaluation shows that our method can reconstruct three HSIs close to the groundtruths and preserve informative features with class separability. 
 
 ### Dataset Description ###
-We utilize the publicly available Oral and Dental Spectral Imaging Database(ODSI-DB). The dataset can be downloaded form [here](https://cs.uef.fi/pub/color/spectra/ODSI-DB/). 
+We utilize the publicly available Oral and Dental Spectral Imaging Database(ODSI-DB). The dataset can be downloaded form [here](https://cs.uef.fi/pub/color/spectra/ODSI-DB/)(Size: 34GB). 
 
 A [preview tool](https://cs.uef.fi/pub/color/spectra/ODSI-DB/preview-tool-v2/) is provided by the dataset creators to visualize different tissue regions. 
 
