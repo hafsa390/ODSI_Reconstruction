@@ -4,4 +4,5 @@ Reliable visual discrimination of clinical tissue types is a challenging problem
 
 ### Dataset Description ###
 We utilize the publicly available Oral and Dental Spectral Imaging Database(ODSI-DB). The dataset can be downloaded form [here](https://cs.uef.fi/pub/color/spectra/ODSI-DB/). 
+
 A [preview tool](https://cs.uef.fi/pub/color/spectra/ODSI-DB/preview-tool-v2/) is provided by the dataset creators to visualize different tissue regions. 
