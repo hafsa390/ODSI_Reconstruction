@@ -42,3 +42,5 @@ Run the [test file](https://github.com/hafsa390/ODSI_Reconstruction/blob/main/ev
 |---------------|--------------------|-------------------|
 |Proposed Model | 2.717 $\pm$ 1.7750 | 8.684 $\pm$ 0.7709|
 |Vanilla UNet   | 3.095 $\pm$ 1.8792 | 8.094 $\pm$ 0.9352|
+
+![Qualitative evaluation of results]
