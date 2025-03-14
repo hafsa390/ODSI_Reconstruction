@@ -26,3 +26,16 @@ We used a 7-layer deep architecture consisting of an encoder path, decoder path,
 The strided convolution is used in each residual unit of encoder path to downsample feature maps. To incorporate multiple input streams, the original input image is resized to match the size of the feature maps in the second and third residual units in the encoder path, convoluted with a $1 \times 1$ convolutional kernel, and concatenated with the output of the previous layer. A skip connection is used to concatenate the output of each unit on the encoder path with the corresponding layer of the decoder path.
 
 ![The proposed UNet figure](https://github.com/hafsa390/ODSI_Reconstruction/blob/main/images/unet_final.JPG)
+
+### Model Training ###
+
+The proposed network is trained using 64x64 overlapping patches having a stride 32. The batch size is 32. The Adam optimizer is used with beta1 = 0.9 and beta2 = 0.999$. The initial learning rate is 0.0001 with the polynomial function as the decay policy. The model is trained for 200 epochs. The average runtime of each epoch is 328.330872536s.
+
+### Results ###
+Proposed Model & 2.717 $\pm$ 1.7750 & 8.684 $\pm$ 0.7709 \\ \hline 
+Vanilla U-Net & 3.095 $\pm$ 1.8792 & 8.094 $\pm$ 0.9352 \\ 
+
+|Model          |MRAE                |PSNR               |
+|---------------|--------------------|-------------------|
+|Proposed Model | 2.717 $\pm$ 1.7750 | 8.684 $\pm$ 0.7709|
+|Vanilla UNet   | 3.095 $\pm$ 1.8792 | 8.094 $\pm$ 0.9352|
